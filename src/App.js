@@ -3,7 +3,7 @@ import './App.css';
 import './Alert.js';
 import Button from '@material-ui/core/Button';
 
-class TodoApp extends Component {
+export class TodoApp extends Component {
   constructor(props) {
     super(props);
     this.state = { items: [], text: '' };
